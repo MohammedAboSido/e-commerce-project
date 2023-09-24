@@ -1,12 +1,13 @@
+import { useState } from "react";
+import Header from "./components/Header/Header";
 import Offer from "./components/offer section/Offer";
-import {useState} from "react";
 
 function App() {
-    const [show, setShow] = useState(true)
+  const [show, setShow] = useState(true);
   return (
     <div className="App">
-        {show && <Offer handelShow={() => setShow((prev) => !prev)} />}
-gggg
+      {show && <Offer handelShow={() => setShow((prev) => !prev)} />}
+      <Header />
     </div>
   );
 }
