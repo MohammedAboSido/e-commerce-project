@@ -16,6 +16,7 @@ function App() {
       <Additions />
       <Newsletter />
       <Footer />
+      aaaaa
     </div>
   );
 }
