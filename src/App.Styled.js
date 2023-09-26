@@ -1,11 +1,11 @@
 import styled, {createGlobalStyle} from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nunito+Sans:ital@1&family=Rubik:ital@1&family=Urbanist:wght@300&display=swap');
   
     * {
       box-sizing: border-box;
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: 'Rubik', sans-serif;
     }
     body {
       margin: 0;
